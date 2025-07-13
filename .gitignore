@@ -1,0 +1,41 @@
+# Logs
+*.log
+migration.log
+
+# Dumps y backups
+dumps/*.sql
+backup_*.sql
+dump_*.sql
+schema_*.sql
+
+# Docker volumes
+postgres_data/
+pgadmin_data/
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+
+# Directorio de backups temporal
+migrations-backup-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
